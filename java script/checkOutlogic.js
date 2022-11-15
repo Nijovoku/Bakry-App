@@ -79,7 +79,7 @@ function main() {
             let type;
             order.isSliced?type = 'sliced':type='loaf bread';
             const racun = 'Product: ' + order.nameOfProduct + '\nAmoutnt: ' + order.amount + '\nPrice: ' + order.price + '\nOrder Number: ' + order.orderNumber + '\n' + type;
-            console.log(racun);
+            alert(racun);
             x.push(order)
             NumberOfOrder +=1
             console.log(order)
